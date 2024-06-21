@@ -1,35 +1,91 @@
-@import url('https://fonts.cdnfonts.com/css/minecraft-4');
-body{
-    background: url('img1.webp');
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+@font-face {
+    font-family: 'CustomFont';
+    src: url('minecraft-font/MinecraftRegular-Bmg3.otf') format('woff2'),
+         url('minecraft-font/MinecraftRegular-Bmg3.otf') format('woff');
+    /* Add additional font properties if needed */
+    font-weight: normal;
+    font-style: normal;
 }
-.huh{
+body{
+    background: url('background.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.minecraft{
+    font-size: 55px;
+    color: rgb(223, 7, 7);
+    text-align: center;
+    font-family: 'CustomFont', Arial, sans-serif;
+}
+.minecraft2{
+    font-family: 'CustomFont', Arial, sans-serif;
+    color: white;
     font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
+    text-align: center;
+}
+.minecraft3{
+    font-family: 'CustomFont', Arial, sans-serif;
+    color: rgb(223, 7, 7);
+    font-size: 50px;
+    text-align: center;
+}
+.how-it-works{
+    font-family: 'CustomFont', Arial, sans-serif;
+    color: rgb(223, 7, 7);
+    font-size: 50px;
+    text-align: center;
+}
+.img{
+    height: 500px;
 }
 .txt1{
-    font-size: 45px;
-    font-family: 'Minecraft', sans-serif;
-    color: gold;
+    font-family: 'CustomFont', Arial, sans-serif;
+    color: white;
+    font-size: 15px;
+    text-align: center;
 }
-.txt2{
-    font-size: 45px;
-    font-family: 'Minecraft', sans-serif;
-    color: gold;
+/* Basic CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.txt3{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-    color: orangered;
+
+/* Basic CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.txt4{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
-    color: orangered;
+header {
+    background-color: #333; /* Dark background color for header */
+    color: #fff; /* Text color for header */
+    padding: 10px 0; /* Padding for header content */
+    text-align: center; /* Center align text */
 }
-.load-more-trailers-link{
-    font-size: 30px;
-    font-family: 'Minecraft', sans-serif;
+
+.announcement {
+    background-color: #f44336; /* Red background color for announcement */
+    padding: 10px; /* Padding inside announcement */
+}
+
+.announcement p {
+    margin: 0; /* Remove default margin for paragraphs */
+}
+
+.announcement strong {
+    color: #fff; /* Text color for strong tag */
+}
+
+/* Adjust link color and styles */
+.announcement a {
+    color: #fff; /* Link color for announcement */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold font weight */
+}
+
+.announcement a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
