@@ -89,3 +89,93 @@ header {
 .announcement a:hover {
     text-decoration: underline; /* Underline on hover */
 }
+.boxart1{
+    height: 350px;
+    margin-left: 960px;
+}
+.title1{
+    margin-top: -340px;
+    font-size: 40px;
+    margin-left: 210px;
+    font-family: 'CustomFont', Arial, sans-serif;
+    color: red;
+}
+.titledown1{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 50px;
+    font-family: 'CustomFont', Arial, sans-serif;
+    color: white;
+}
+.boxart2{
+    height: 350px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.boxart2-text{
+    margin-top: -350px;
+    font-size: 45px;
+    margin-left: 700px;
+    font-family: 'CustomFont', Arial, sans-serif;
+    color: red;
+}
+.boxart2-text-1{
+    font-size: 25px;
+    margin-left: 700px;
+    font-family: 'CustomFont', Arial, sans-serif;
+    color: white;
+}
+.boxart3{
+    height: 350px;
+    margin-top: 200px;
+    margin-left: 950px;
+}
+.boxart3-text{
+    margin-top: -350px;
+    font-size: 45px;
+    margin-left: 60px;
+    font-family: 'CustomFont', Arial, sans-serif;
+    color: red;
+}
+.boxart3-text-1{
+    font-size: 25px;
+    margin-left: 60px;
+    font-family: 'CustomFont', Arial, sans-serif;
+    color: white;
+}
+.boxart4{
+    height: 350px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.boxart4-text{
+    margin-top: -350px;
+    font-size: 45px;
+    margin-left: 700px;
+    font-family: 'CustomFont', Arial, sans-serif;
+    color: red;
+}
+.boxart4-text-1{
+    font-size: 25px;
+    margin-left: 700px;
+    font-family: 'CustomFont', Arial, sans-serif;
+    color: white;
+}
+.boxart5{
+    height: 350px;
+    margin-top: 200px;
+    margin-left: 950px;
+}
+.boxart5-text{
+    margin-top: -350px;
+    font-size: 45px;
+    margin-left: 60px;
+    font-family: 'CustomFont', Arial, sans-serif;
+    color: red;
+}
+.boxart5-text-1{
+    font-size: 25px;
+    margin-left: 60px;
+    font-family: 'CustomFont', Arial, sans-serif;
+    color: white;
+}
